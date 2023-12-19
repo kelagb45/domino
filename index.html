@@ -30,8 +30,10 @@
       <div class="speech">
         its summer time,grab a <a class="s">slice</a> with your
         <a class="f">friends</a>.
-       <div class="button"><button class="deliver">Delivery</button>
-        <button class="away">Take Away</button></div>
+        <div class="button">
+          <button class="deliver">Delivery</button>
+          <button class="away">Take Away</button>
+        </div>
       </div>
     </div>
   </body>
@@ -90,15 +92,24 @@
     }
     .speech {
       position: relative;
-      top: 220px;  
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      top: 220px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
       font-size: 30px;
     }
-    .deliver{
-      padding: 10px;
+    .deliver {
+      padding: 7px;
       background-color: white;
       color: rgb(100, 175, 241);
+      border-radius: 12px;
+      border: 1px solid black;
     }
-
+    .away {
+      padding: 7px;
+      background-color: rgb(219, 28, 28);
+      color: rgb(253, 250, 248);
+      border-radius: 12px;
+      border: 1px solid rgb(252, 248, 248);
+    }
   </style>
 </html>
